@@ -17,7 +17,6 @@ import { IProduct } from "@/pages/app/store/product.types";
 import btnStyles from "../styles/Button.module.scss";
 import styles from "../styles/Card.module.scss";
 import { useActions } from "@/pages/app/hooks/useActions";
-import { setCookies } from "cookies-next";
 
 interface Props {
   product: IProduct;
