@@ -1,0 +1,17 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 24px auto;
+  align-items: center;
+}
+@media screen and (max-width: 390px) {
+  .head {
+    width: 355px;
+  }
+}
+.pages{
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}

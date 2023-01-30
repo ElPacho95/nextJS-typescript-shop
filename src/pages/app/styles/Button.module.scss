@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.btn {
+  display: inline-block;
+  line-height: 38px;
+  background: #ffdc38;
+  position: relative;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.btn::before,
+.btn:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.btn::before {
+  right: 100%;
+  border-right: 12px solid #ffdc38;
+  border-top: 38px solid transparent;
+}
+
+.btn::after {
+  left: 100%;
+  border-left: 12px solid #ffdc38;
+  border-bottom: 38px solid transparent;
+}
+
+.hitBtn {
+  display: inline-block;
+  line-height: 38px;
+  background: #f23c30;
+  position: relative;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+
+}
+
+.hitBtn::before,
+.hitBtn:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.hitBtn::before {
+  right: 100%;
+  border-right: 12px solid #f23c30;
+  border-top: 38px solid transparent;
+}
+
+.hitBtn::after {
+  left: 100%;
+  border-left: 12px solid #f23c30;
+  border-bottom: 38px solid transparent;
+}

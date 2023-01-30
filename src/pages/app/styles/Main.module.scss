@@ -1,0 +1,70 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(5, 0fr);
+  column-gap: 10px;
+  row-gap: 2em;
+  justify-content: center;
+}
+@media screen and (max-width: 390px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.bg {
+  padding: 23px 23px 50px 25px;
+
+  background: #636b7f;
+  width: 175px;
+  height: 140px;
+  color: white;
+  button:last-child {
+    border: none;
+    color: #ffffff;
+    background: transparent;
+    opacity: 0.8;
+  }
+}
+.advertisement {
+  width: 332px;
+  height: 402px;
+  h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2e2e33;
+  }
+  p {
+    margin-top: 12px;
+  }
+}
+.first {
+  margin-top: 28px;
+  display: flex;
+  width: 332px;
+}
+.last {
+  display: flex;
+  width: 332px;
+  margin: 8px auto;
+  div {
+    width: 166px;
+    margin: auto;
+    margin-left: 15px;
+  }
+}
+.select {
+  border: none;
+  background: transparent;
+  color: #2e2e33;
+  opacity: 0.5;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+}

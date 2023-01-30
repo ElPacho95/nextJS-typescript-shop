@@ -1,0 +1,125 @@
+.product {
+  width: 292px;
+  height: 302px;
+  margin: auto;
+  .image {
+    text-align: center;
+    .hit {
+      display: flex;
+      justify-content: end;
+    }
+  }
+}
+.empty {
+  height: 38px;
+}
+.about {
+  padding: 12px 12px 23px 12px;
+  .title {
+    padding-top: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.countRate {
+  color: #999999;
+  border-bottom: 1px solid #999999;
+}
+
+.activeStar {
+  path {
+    fill: gray;
+  }
+}
+.price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 20px;
+  color: #2e2e33;
+  margin-top: 8px;
+  span {
+    color: #999999;
+    font-size: 14px;
+  }
+}
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.inBasket {
+  width: 175px;
+  height: 40px;
+  background: #00b177;
+  border-radius: 90px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.btn {
+  border: none;
+  background: #4056a1;
+  border-radius: 90px;
+  width: 100px;
+  height: 39.67px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.elem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  height: 44px;
+  div:last-child {
+    width: 40px;
+    text-align: center;
+  }
+  div:first-child {
+    .minus {
+      color: #2e2e33;
+      border: none;
+      margin-left: 8px;
+      background: none;
+
+      margin-bottom: 8px;
+    }
+    .plus {
+      background: none;
+      color: #2e2e33;
+      border: none;
+    }
+  }
+}
+.favourites {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  column-gap: 10px;
+  row-gap: 2em;
+  justify-content: center;
+  margin-top: 25px;
+}
+@media screen and (max-width: 390px) {
+  .favourites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
