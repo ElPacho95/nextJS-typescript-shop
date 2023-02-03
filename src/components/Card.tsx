@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import Button from "@/pages/app/components/Button";
+import Button from "@/components/Button";
 
 import AllReadyInFav from "../assets/AllReadyInFav.svg";
 import Favourites from "../assets/saved.svg";
@@ -10,21 +10,22 @@ import Star from "../assets/Star.svg";
 import Minus from "../assets/minus.svg";
 import Plus from "../assets/+.svg";
 
-import { useTypedSelector } from "@/pages/app/hooks/useTypedSelector";
+import { useTypedSelector } from "@/hooks/useTypedSelector";
 
-import { IProduct } from "@/pages/app/store/product.types";
+import { IProduct } from "@/pages/api/store/product.types";
 
-import btnStyles from "../styles/Button.module.scss";
-import styles from "../styles/Card.module.scss";
-import { useActions } from "@/pages/app/hooks/useActions";
+import btnStyles from "../scss/Button.module.scss";
+import styles from "../scss/Card.module.scss";
+import { useActions } from "@/hooks/useActions";
 
 interface Props {
   product: IProduct;
   isFav?: boolean;
   isShop?: boolean;
+  isBasket?: boolean;
 }
 
-const Card: React.FC<Props> = ({ product, isShop }) => {
+const Card: React.FC<Props> = ({ product, isFav, isBasket, isShop }) => {
   const { favourite, basket } = useTypedSelector((state) => state);
   const { category, image, price, rating, title, id } = product;
   const rate = rating.rate.toFixed(0);
@@ -38,7 +39,7 @@ const Card: React.FC<Props> = ({ product, isShop }) => {
   const isExistInFav = favourite.some((i) => i.id === id);
   const isExistInBasket = basket.some((i) => i.id === id);
 
-  const { addItem, removeItem, addToBasket } = useActions();
+  const { addItem, removeItem, addToBasket, removeToBasket } = useActions();
 
   const minus = () => {
     if (count == 1) {
@@ -87,14 +88,26 @@ const Card: React.FC<Props> = ({ product, isShop }) => {
           {changePrice * 70}₽ <span>/шт.</span>
         </div>
         <div className={styles.elem}>
-          {isShop && (
+          {isFav ? (
+            ""
+          ) : (
             <div className={styles.counter}>
-              <button
-                onClick={() => !isExistInBasket && addToBasket(product)}
-                className={isExistInBasket ? styles.inBasket : styles.btn}
-              >
-                {isExistInBasket ? "В корзине" : "В корзину"}
-              </button>
+              {isShop && (
+                <button
+                  onClick={() => !isExistInBasket && addToBasket(product)}
+                  className={isExistInBasket ? styles.inBasket : styles.btn}
+                >
+                  {isExistInBasket ? "В корзине" : "В корзину"}
+                </button>
+              )}
+              {isBasket && (
+                <button
+                  onClick={() => removeToBasket({ id: id })}
+                  className={styles.delBtn}
+                >
+                  Удалить
+                </button>
+              )}
               {isExistInBasket || (
                 <>
                   <button onClick={minus} className={styles.minus}>

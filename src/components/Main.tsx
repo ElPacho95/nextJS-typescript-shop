@@ -1,16 +1,14 @@
-import Advertisement from "@/pages/app/components/Advertisement";
-import { useGetProductsQuery } from "@/pages/app/store/product";
-import { IProduct } from "@/pages/app/store/product.types";
+import Advertisement from "@/components/Advertisement";
+import { useGetProductsQuery } from "@/pages/api/store/product";
+import { IProduct } from "@/pages/api/store/product.types";
 
-import Card from "@/pages/app/components/Card";
+import Card from "@/components/Card";
 
-import styles from "../styles/Main.module.scss";
+import styles from "../scss/Main.module.scss";
 import React from "react";
-
 
 const Main: React.FC = () => {
   const { data, isLoading, error } = useGetProductsQuery(9);
-
 
   return (
     <div>
@@ -23,7 +21,7 @@ const Main: React.FC = () => {
         ) : (
           <>
             {data?.map((item: IProduct) => {
-              return <Card key={item.id} product={item} isShop={true}/>;
+              return <Card key={item.id} product={item} isShop={true} />;
             })}
           </>
         )}

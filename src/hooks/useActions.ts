@@ -1,11 +1,11 @@
-import { favouriteActions  } from "@/pages/app/store/favourite";
-import { basketActions  } from "@/pages/app/store/basket";
+import { favouriteActions } from "@/pages/api/store/favourite";
+import { basketActions } from "@/pages/api/store/basket";
 import { useDispatch } from "react-redux";
 import { bindActionCreators } from "@reduxjs/toolkit";
 
 const allActions = {
   ...favouriteActions,
-  ...basketActions
+  ...basketActions,
 };
 export const useActions = () => {
   const dispatch = useDispatch();

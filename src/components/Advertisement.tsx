@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
-import Button from "@/pages/app/components/Button";
+import Button from "@/components/Button";
 
-import gamePc from "@/pages/app/assets/game-pc.jpg";
-import Arrow from "@/pages/app/assets/arrow.svg";
-import mac from "@/pages/app/assets/mac.jpg";
+import gamePc from "@/assets/game-pc.jpg";
+import Arrow from "@/assets/arrow.svg";
+import mac from "@/assets/mac.jpg";
 
-import styles from "@/pages/app/styles/Main.module.scss";
-import btnStyles from "../styles/Button.module.scss";
+import styles from "@/scss/Main.module.scss";
+import btnStyles from "../scss/Button.module.scss";
 
 const Advertisement: React.FC = () => {
   return (
@@ -32,7 +32,7 @@ const Advertisement: React.FC = () => {
         <div className={styles.last}>
           <div>
             Скидка &nbsp;&nbsp;
-            <Button title={"10%"} style={btnStyles.btn}/> <br />
+            <Button title={"10%"} style={btnStyles.btn} /> <br />
             на периферию <br /> для компьютера <br />
             <button className={styles.select}>Выбрать</button>
           </div>

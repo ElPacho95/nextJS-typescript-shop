@@ -2,7 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a93ebc-e373-44d5-8bea-6ddc48ce8fa1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Layouts/Basket.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/store/basket.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/hello.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/Layouts/Basket.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/Layouts/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layouts/Content.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/Layouts/Favourites.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layouts/Favourites.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/+.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/+.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/AllReadyInFav.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/AllReadyInFav.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/Star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/basket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/basket.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/favourites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/favourites.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/game-pc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/game-pc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/mac.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mac.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/assets/saved.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/saved.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/components/Advertisement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Advertisement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/components/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/components/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/hooks/useActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/hooks/useTypedSelector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useTypedSelector.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/store/basket.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/store/favourite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/store/favourite.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/store/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/store/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/store/product.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/store/product.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/store/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/styles/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/styles/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Card.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/styles/Content.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Content.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/styles/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/app/styles/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,22 +61,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pacho/Desktop/shop-test/src/app/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/usr/local/lib/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/pacho/Desktop/shop-test/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/pacho/Desktop/shop-test/src/app/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/pacho/Desktop/shop-test/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/assets" />
@@ -72,7 +109,8 @@
       <workItem from="1674659519702" duration="61157000" />
       <workItem from="1674920447922" duration="9213000" />
       <workItem from="1675008521682" duration="17059000" />
-      <workItem from="1675039402718" duration="1251000" />
+      <workItem from="1675039402718" duration="5014000" />
+      <workItem from="1675431551167" duration="297000" />
     </task>
     <servers />
   </component>

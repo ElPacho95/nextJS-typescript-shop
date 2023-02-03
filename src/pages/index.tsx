@@ -1,4 +1,4 @@
-import Content from "@/pages/app/Layouts/Content";
+import Content from "@/pages/Layouts/Content";
 
 export default function Home() {
   return <Content />;

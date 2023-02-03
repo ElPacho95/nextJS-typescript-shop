@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/Button.module.scss";
+import "../scss/Button.module.scss";
 
 interface IProps {
   title: string;
