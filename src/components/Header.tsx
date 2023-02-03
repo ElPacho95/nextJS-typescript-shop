@@ -15,7 +15,7 @@ const Header: React.FC = () => {
         <Link href="/Layouts/Favourites">
           <Favourites />
         </Link>
-        <Link href={"/app/Layouts/Basket"}>
+        <Link href={"/Layouts/Basket"}>
           <Basket />
         </Link>
       </div>
